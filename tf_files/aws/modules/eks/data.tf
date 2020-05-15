@@ -195,6 +195,6 @@ data "aws_iam_policy_document" "planx-csoc-alerts-topic_access" {
   statement {
     actions   = [ "sns:Publish" ]
     effect    = "Allow"
-    resources = "${var.sns_topic_arn}" 
+    resources = [ "${var.sns_topic_arn}" ]
   }
 }
