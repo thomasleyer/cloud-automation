@@ -41,4 +41,5 @@ spec:
                   memory: 8Gi
                 limits:
                   cpu: 4
-                  memory: 8Gi # guess on upper bound
+                  # guess on upper bound
+                  memory: 10Gi
